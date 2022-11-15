@@ -1,0 +1,20 @@
+{
+  "name": "woorelease-test",
+  "title": "Woorelease test",
+  "version": "1.0.0",
+  "config": {
+    "translate": false
+  },
+  "devDependencies": {
+    "node-wp-i18n": "~1.2.3"
+  },
+  "scripts": {
+    "build": "composer install",
+    "postbuild": "npm run archive",
+    "archive": "composer archive --file=$npm_package_name --format=zip"
+  },
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=5.5.1"
+  }
+}

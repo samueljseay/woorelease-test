@@ -1,0 +1,27 @@
+{
+    "name": "woo/woorelease-test",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0+",
+    "archive": {
+        "exclude": [
+            "!/dist",
+            "!/languages",
+            "bin",
+            "tests",
+            "/vendor",
+            "Gruntfile.js",
+            "node_modules",
+            "README.md",
+            "package.json",
+            "package-lock.json",
+            "composer.json",
+            "composer.lock",
+            "phpunit.xml.dist",
+            "woorelease-test.zip",
+            ".*"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
