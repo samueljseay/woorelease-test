@@ -9,9 +9,11 @@
     "node-wp-i18n": "~1.2.3"
   },
   "scripts": {
-    "build": "composer install",
-    "postbuild": "npm run archive",
-    "archive": "composer archive --file=$npm_package_name --format=zip"
+    "build": "npm run makepot && npm run archive",
+    "build:dev": "npm run makepot",
+    "archive": "composer archive --file=$npm_package_name --format=zip",
+    "postarchive": "rm -rf $npm_package_name && unzip $npm_package_name.zip -d $npm_package_name && rm $npm_package_name.zip && zip -r $npm_package_name.zip $npm_package_name && rm -rf $npm_package_name",
+    "makepot": "wpi18n makepot --domain-path languages --pot-file $npm_package_name.pot --type plugin --main-file $npm_package_name.php --exclude node_modules,tests,docs"
   },
   "engines": {
     "node": ">=8.9.3",
