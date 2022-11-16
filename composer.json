@@ -5,7 +5,7 @@
     "archive": {
         "exclude": [
             "!/dist",
-            "!/languages",
+            "/languages",
             "bin",
             "tests",
             "/vendor",
