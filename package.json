@@ -3,7 +3,8 @@
   "title": "Woorelease test",
   "version": "1.0.0",
   "config": {
-    "translate": false
+    "translate": false,
+    "wp_org_slug": "woorelease-test"
   },
   "devDependencies": {
     "node-wp-i18n": "~1.2.3"
