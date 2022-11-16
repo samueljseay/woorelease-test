@@ -1,0 +1,4 @@
+*** Woorelease-test Changelog ***
+
+2022-11-16- version 1.0.0
+* Add - Files
