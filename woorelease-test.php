@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Woorelease test
- * Version: 1.0.0
+ * Version: 4.0.0
  * Author: WooCommerce
  * Author URI: https://woocommerce.com
  * WC requires at least: 2.6
