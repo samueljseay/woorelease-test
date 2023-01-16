@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Woorelease test
- * Version: 9.5.0
+ * Version: 4.0.0
  * Author: WooCommerce
  * Author URI: https://woocommerce.com
  * WC requires at least: 2.6
- * WC tested up to: 7.0
- * Tested up to: 7.0
- * Copyright: © 2023 WooCommerce
+ * WC tested up to: 7.1
+ * Tested up to: 6.0
+ * Copyright: © 2022 WooCommerce
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
